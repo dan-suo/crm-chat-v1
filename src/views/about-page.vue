@@ -1,6 +1,7 @@
 <template>
-    <h1>Home</h1>
-    <router-link to="/about">go to About page</router-link>
+  <v-container fluid class="border-t-sm">
+    <h1>About</h1>
+  </v-container>
 </template>
 
 <script>
