@@ -27,7 +27,7 @@
     <v-navigation-drawer 
       bottom 
       v-model="drawer"
-      class="bg-deep-purple-lighten-2"
+      class="bg-light-blue-accent-4"
     >
       <v-row
         class="mt-3"

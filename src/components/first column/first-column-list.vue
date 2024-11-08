@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <v-row
-      class="justify-center"
+      class="justify-start"
     >
       <v-col 
         cols="10"
@@ -12,12 +12,13 @@
           append-inner-icon="mdi-magnify"
           variant="outlined"
           hint="Enter what you want to find"
+          class="h-20"
         ></v-text-field>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12">
-        <v-sheet class="ml-6 bg-grey-lighten-5 mt-n4 mb-n4 text-grey">My dialogs</v-sheet>
+      <v-col cols="12" class="border-b-thin">
+        <v-sheet class="ml-1 bg-grey-lighten-5 mt-n4 mb-n4 text-grey">My dialogs</v-sheet>
       </v-col>
     </v-row>
     <v-row>
