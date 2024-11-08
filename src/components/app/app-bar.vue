@@ -29,9 +29,24 @@
       v-model="drawer"
       class="bg-deep-purple-lighten-2"
     >
+      <v-row
+        class="mt-3"
+      >
+        <v-col cols="12" class="text-center mb-n5">
+          <v-avatar size="90" color="grey">
+            <v-img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="avatar" class="opacity-70" />
+          </v-avatar>
+        </v-col>
+
+        <v-col cols="12" class="text-center mb-n5">
+          <p class="text-h6 text-grey-lighten-3 mb-6">Michael</p>
+        </v-col>
+      </v-row>
+
       <v-list-item 
         title="NAVIGATION"
         subtitle="click on arrow to close"
+        class="mt-6"
       >
         <template v-slot:append>
           <v-btn icon="mdi-arrow-left" @click="drawer = !drawer" variant="plain"></v-btn>
