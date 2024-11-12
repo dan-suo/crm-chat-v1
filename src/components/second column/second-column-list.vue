@@ -1,7 +1,9 @@
 <template>
   <v-container fluid>
+
     <v-row class="justify-center">
       <v-col cols="11">
+
         <v-card flat class="bg-grey-lighten-5">
           <v-card-item>
             <template v-slot:prepend>
@@ -19,24 +21,29 @@
             </template>
           </v-card-item>
         </v-card>
+
       </v-col>
     </v-row>
+
     <v-row>
       <v-col>
         <!-- dialog messages component -->
         <dialog-item></dialog-item>
       </v-col>
     </v-row>
+
     <v-row>
         <v-col>
-            
+            <!-- textarea component -->
+            <textarea-input></textarea-input>
         </v-col>
     </v-row>
+    
   </v-container>
 </template>
 
 <script setup>
-import dialogItem from './dialog-item.vue';
+import DialogItem from './dialog-item.vue';
 </script>
 
 <style>
